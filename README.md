@@ -1,2 +1,2 @@
-# FaFcebook--Twitter--Google--Registration
+# Fcebook--Twitter--Google--Registration
 Social Registration system developed in node.js
