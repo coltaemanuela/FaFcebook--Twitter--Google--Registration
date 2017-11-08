@@ -1,0 +1,51 @@
+{
+	"server" : {
+		"port" : 5100
+	},
+	"database" : {
+		"name" : "thumbsplit",
+		"user" : "postgres",
+		"password" :"***", 
+		"host" : "localhost"
+	},
+	"jwt":{
+		"secret" : "****",
+		"life_time" : 360
+	},
+	"sendgrid": {
+        "key":"****"
+    },   
+    "emails":{
+        "new_account_template"  : "**",
+        "new_account_email"     : "noreply@myapp.com",
+        "new_account_subject"   : " New Account Confirmation",
+        "new_account_link"      : "​http://​localhost​:5100/report-abuse",  
+
+        "forgot_pasword_template": "9**a",
+        "forgot_password_email"  : "noreply@myapp.com",
+        "forgot_password_subject": " Reset Password",
+        "forgot_password_link"   : "http://​localhost​:5100/reset-password",
+
+        "report_template": "2c2****3f",
+        "report_subject" : " Report",
+        "report_email"   : "report@myapp.com",
+
+        "contact_email"     : "contact@myapp.com",
+        "contact_subject"   : "Contact",
+        "contact_template"  :"2c2***3f",
+        
+        "admin_email":	"coltaemanuela@gmail.com" 
+	},
+
+    "social":{
+       
+        "gooogle": {
+            "api_key": "**"
+        },
+        "twitter": {
+            "consumer_key": "***",
+            "consumer_secret": "***"
+        }
+    }
+
+}
